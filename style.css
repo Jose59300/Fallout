@@ -226,8 +226,9 @@ li {
 	line-height: 40px;
 }
 .line {
-	height: 680px;
+	height: 500px;
 	border-left: 10px solid #CD9C22;
+	margin-left: 30px;
 }
 .content {
 	font-size: 1em;
@@ -250,5 +251,115 @@ li {
 }
 .textFooter {
 	font-size: 2em;
+}
+}
+@media screen and (min-width: 520px) and (max-width: 768px) {
+	h2 {
+		padding: 4px 0;
+		font-size: 1.2em;
+	}
+	li {
+		font-size: 1em;
+	}
+	.title {
+		font-size: 1.5em;
+	}
+	.number {
+		font-size: 1.5em;
+	}
+.textHeader {
+	font-size: 1.5em;
+	padding: 0;
+	line-height: 20px;
+	margin-top: 30px;
+}
+.line {
+	height: 680px;
+	border-left: 10px solid #CD9C22;
+	margin-left: 30px;
+}
+.content {
+	font-size: 1em;
+}
+.text {
+	font-size: 1.2em;
+}
+.container {
+	font-size: 0.8em;
+	padding-top: 63px;
+	padding-left: 9px;
+	line-height: 18px;
+}
+.icon {
+	height: 120px;
+	width: 120px;
+	padding-top: 42px;
+}
+.falloutGuy {
+	height: 120px;
+	width: 120px;
+	padding-top: 42px;
+}
+.textFooter {
+	font-size: 2em;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 520px) {
+	h2 {
+		padding: 4px 0;
+		font-size: 1.2em;
+	}
+	li {
+		font-size: 1em;
+	}
+	.title {
+		font-size: 1.5em;
+	}
+	.titleHeader {
+		top: 44px;
+		width: 100%;
+	}
+	.number {
+		font-size: 1.5em;
+	}
+.textHeader {
+	font-size: 1.5em;
+	padding: 0;
+	line-height: 20px;
+	margin-top: 30px;
+}
+.line {
+	height: 680px;
+	border-left: 10px solid #CD9C22;
+	margin-left: 30px;
+}
+.content {
+	font-size: 1em;
+}
+.text {
+	font-size: 1.2em;
+}
+.container {
+	font-size: 0.8em;
+	padding-top: 63px;
+	padding-left: 9px;
+	line-height: 18px;
+}
+.icon {
+	height: 120px;
+	width: 120px;
+	padding-top: 42px;
+}
+.falloutGuy {
+	height: 120px;
+	width: 120px;
+	padding-top: 42px;
+	padding-left: 50px;
+}
+.textFooter {
+	font-size: 2em;
+}
+.fallout {
+	width: 100%;
 }
 }
