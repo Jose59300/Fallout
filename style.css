@@ -29,7 +29,7 @@ h2 {
 
 li {
 	margin: 0 25px 0 30px;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	list-style-position: inside;
 	line-height: 35px;
 }
@@ -83,7 +83,7 @@ footer {
 
 .line {
 	border-left: 12px solid #CD9C22;
-	height: 520px;
+	height: 680px;
 	margin-left: 150px;
 	margin-right: 65px;
 	border-radius: 3px;
@@ -358,6 +358,7 @@ li {
 }
 .textFooter {
 	font-size: 2em;
+	margin: 120px;
 }
 .fallout {
 	width: 100%;
